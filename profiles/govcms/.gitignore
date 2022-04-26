@@ -1,0 +1,55 @@
+# Ignore GovCMS build files.
+build.properties
+tests/screenshots/*
+
+# Fixtures added
+tests/cy/cypress/fixtures/currentComposer.json
+
+# Ignore drupal core.
+docroot/
+web/
+app/
+
+# Ignore build artifacts
+/deploy
+bin/*
+reports
+
+# Composer vendor
+composer.lock
+vendor/
+vendor/.git
+
+# Sass
+.sass-cache
+
+# Node
+node_modules/
+
+# Cypress
+tests/cy/cypress/videos
+tests/cy/cypress/screenshots
+
+# Drupal console
+console/
+console/cache/
+
+# DrupalVM
+.vagrant/
+behat.vm.yml
+
+# PHPStorm
+.idea/
+atlassian-ide-plugin.xml
+
+# Netbeans IDE
+nbproject
+nbproject/*
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# .lock files
+*.lock
